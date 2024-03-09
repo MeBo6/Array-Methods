@@ -1,57 +1,50 @@
-// 1. array 1 dan 5mde. gadavaqciot stringad ori gzit. 
-// 2. shevabrunot masivi(reverse)
-// 3. map it davabrunt yvela elementi.
-// 4. 3ze meti elementi davabrunot filter it.
-// 5. masivshi chavamatot da amovshalot pirveli elementi
-// 6. masivshi chavamatot da amovshalot bolo elementi
+//  Array Methods
 
+const arr = [1,2,3,4,5,6];
 
-
-const myArr = [1,2,3,4,5];
-
-// 1a.
-// const fun = (myArr) => {
-//    console.log(myArr.join(','));
+//   1. function that returns every element multiplied by 3
+// const fun = () => {
+// return arr.map(e => e * 3);
 // }
-// fun(myArr);
+// console.log(fun());
 
-// 1b.
-// const fun = (myArr) => {
-//    console.log(myArr.toString(','));
+//  2. function that returns only even numbers
+// const fun = () => {
+//   return arr.filter(e => e%2 === 0);
 // }
-// fun(myArr);
+// console.log(fun());
 
+//  3. add number (7) at the end of array
+// const fun = () => {
+//   arr.push(7);
+//   return arr;
+// }
+// console.log(fun());
 
-// 2.
-// console.log(myArr.reverse());
+//  4. function that removes first element of array
+// const fun = () => {
+//   arr.shift();
+//   return arr;
+// }
+// console.log(fun());
 
-// 3.
-// const newArr = myArr.map(e => console.log(e));
+//  5. function, that removes [3] from array
+// const fun = () => {
+//   arr.splice(2, 1);
+//   return arr;
+// }
+// console.log(fun());
 
+//  6. check if array includes 5
+// const fun = () => {
+//   return arr.includes(5);
+// }
+// console.log(fun());
 
-// 4.
-// const filteredArr = myArr.filter(function filterFun(e) {return e > 3});
-// const filteredArr = myArr.filter(e => e > 3);
-// console.log(filteredArr);
-
-
-// 5a.
-// myArr.shift(); console.log(myArr);
-
-// 5b.
-// myArr.unshift(0); console.log(myArr);
-
-// 6a.
-// myArr.pop(); console.log(myArr);
-
-// 6b.
-// myArr.push(6); console.log(myArr);
-
-
-
-
-
-
-
+//  7. index of 2
+// const fun = () => {
+//   return arr.indexOf(2);
+// }
+// console.log(fun());
 
 
